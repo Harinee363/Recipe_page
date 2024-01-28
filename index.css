@@ -1,77 +1,72 @@
-img{
-    width: 550px;
-    height:275px;
-    border-radius: 20px;
-    margin: 25px 20px;
-    position: relative;
-    background-color: aliceblue;
-    display: flex;
-}
-h1{
-    background-color: aliceblue;
-}
-b{
-    background-color: aliceblue;
-}
-h4{
-    background-color: aliceblue;
-}
-h2{
-    background-color: aliceblue;
-}
-p{
-    background-color: aliceblue;
-}
-*
-{
-    background-color: bisque;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.overall  {
-    background-color: aliceblue;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 550px;
     height: auto;
-    margin:50px 370px;
     border-radius: 20px;
-}
-caption{
-    font-size: small;
-}
-ul
-{
+    margin: 25px 0;
+  }
+  
+  .overall {
+    margin: 50px 5%;
+    border-radius: 20px;
+    padding: 20px;
     background-color: aliceblue;
-}
-ol{
+  }
+  
+  /* Responsive styles using media queries */
+  @media (min-width: 768px) {
+    .overall {
+      margin: 50px 10%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .overall {
+      margin: 50px 15%;
+    }
+  }
+  
+  /* Add more media queries as needed for larger screens */
+  
+  /* Additional Styles */
+  h1, h2, h4, p, ul, ol, table {
     background-color: aliceblue;
-}
-ul li{
-    background: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  ul, ol {
+    margin-left: 20px;
+  }
+  
+  ul li, ol li {
     list-style-type: circle;
-    margin:0;
-    padding:0;
-
-}
-ol li{
-    background: aliceblue;
-    list-style-type:decimal;
-    margin:0;
-    padding:0;
-
-}
-caption{
+  }
+  
+  caption {
     background-color: aliceblue;
     padding-bottom: 5px;
-}
-table{
-    margin-top: 5px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 15px;
     background-color: aliceblue;
-    width: 550px;
-}
-tr{
+    border-collapse: collapse;
+  }
+  
+  tr, th, td {
     background-color: aliceblue;
-}
-th{
-    background-color: aliceblue;
-}
-td{
-    background-color: aliceblue;
-}
+    padding: 10px;
+    border: 1px solid bisque;
+  }
