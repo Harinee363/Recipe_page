@@ -1,0 +1,77 @@
+img{
+    width: 550px;
+    height:275px;
+    border-radius: 20px;
+    margin: 25px 20px;
+    position: relative;
+    background-color: aliceblue;
+    display: flex;
+}
+h1{
+    background-color: aliceblue;
+}
+b{
+    background-color: aliceblue;
+}
+h4{
+    background-color: aliceblue;
+}
+h2{
+    background-color: aliceblue;
+}
+p{
+    background-color: aliceblue;
+}
+*
+{
+    background-color: bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.overall  {
+    background-color: aliceblue;
+    height: auto;
+    margin:50px 370px;
+    border-radius: 20px;
+}
+caption{
+    font-size: small;
+}
+ul
+{
+    background-color: aliceblue;
+}
+ol{
+    background-color: aliceblue;
+}
+ul li{
+    background: aliceblue;
+    list-style-type: circle;
+    margin:0;
+    padding:0;
+
+}
+ol li{
+    background: aliceblue;
+    list-style-type:decimal;
+    margin:0;
+    padding:0;
+
+}
+caption{
+    background-color: aliceblue;
+    padding-bottom: 5px;
+}
+table{
+    margin-top: 5px;
+    background-color: aliceblue;
+    width: 550px;
+}
+tr{
+    background-color: aliceblue;
+}
+th{
+    background-color: aliceblue;
+}
+td{
+    background-color: aliceblue;
+}
